@@ -1,9 +1,3 @@
-local gameid = 76911729991355
-
-if game.PlaceId ~= gameid then
-    return
-
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
@@ -666,5 +660,3 @@ local Label = Tab:CreateLabel("Soon", "rewind")
 local Section = Tab:CreateSection("Soon")
 
 local Divider = Tab:CreateDivider()
-
-end
